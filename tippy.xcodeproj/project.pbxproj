@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182DEADA19BC292F008C3D5F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEAD919BC292F008C3D5F /* SettingsViewController.swift */; };
 		18A0824D19B6B948002B3EC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0824C19B6B948002B3EC1 /* AppDelegate.swift */; };
 		18A0824F19B6B948002B3EC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0824E19B6B948002B3EC1 /* ViewController.swift */; };
 		18A0825219B6B948002B3EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A0825019B6B948002B3EC1 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182DEAD919BC292F008C3D5F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		18A0824719B6B948002B3EC1 /* tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A0824B19B6B948002B3EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A0824C19B6B948002B3EC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				18A0825019B6B948002B3EC1 /* Main.storyboard */,
 				18A0825319B6B948002B3EC1 /* Images.xcassets */,
 				18A0824A19B6B948002B3EC1 /* Supporting Files */,
+				182DEAD919BC292F008C3D5F /* SettingsViewController.swift */,
 			);
 			path = tippy;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				18A0824F19B6B948002B3EC1 /* ViewController.swift in Sources */,
 				18A0824D19B6B948002B3EC1 /* AppDelegate.swift in Sources */,
+				182DEADA19BC292F008C3D5F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,7 @@
 				18A0826519B6B948002B3EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A0826619B6B948002B3EC1 /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				18A0826819B6B948002B3EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
